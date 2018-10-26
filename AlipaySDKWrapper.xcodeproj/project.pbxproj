@@ -10,6 +10,20 @@
 		179F288721835FCB00AE4600 /* AlipaySDKWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F287D21835FCB00AE4600 /* AlipaySDKWrapper.framework */; };
 		179F288C21835FCB00AE4600 /* AlipaySDKWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F288B21835FCB00AE4600 /* AlipaySDKWrapperTests.swift */; };
 		179F288E21835FCB00AE4600 /* AlipaySDKWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 179F288021835FCB00AE4600 /* AlipaySDKWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		179F289E2183600D00AE4600 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 179F289C2183600C00AE4600 /* AlipaySDK.bundle */; };
+		179F28A12183604100AE4600 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28A02183604100AE4600 /* CFNetwork.framework */; };
+		179F28A32183604100AE4600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28A22183604100AE4600 /* Foundation.framework */; };
+		179F28A52183604100AE4600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28A42183604100AE4600 /* UIKit.framework */; };
+		179F28A72183604100AE4600 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28A62183604100AE4600 /* SystemConfiguration.framework */; };
+		179F28A92183604100AE4600 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28A82183604100AE4600 /* QuartzCore.framework */; };
+		179F28AB2183604100AE4600 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28AA2183604100AE4600 /* CoreGraphics.framework */; };
+		179F28AD2183604100AE4600 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28AC2183604100AE4600 /* CoreMotion.framework */; };
+		179F28AF2183604100AE4600 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28AE2183604100AE4600 /* CoreTelephony.framework */; };
+		179F28B12183604100AE4600 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28B02183604100AE4600 /* CoreText.framework */; };
+		179F28B32183604100AE4600 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28B22183604100AE4600 /* libc++.tbd */; };
+		179F28B52183604100AE4600 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28B42183604100AE4600 /* libz.tbd */; };
+		179F28B72183620100AE4600 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F28B62183620100AE4600 /* AlipaySDK.framework */; };
+		179F28FB218368CB00AE4600 /* AlipaySDKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F28FA218368CB00AE4600 /* AlipaySDKWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,20 @@
 		179F288621835FCB00AE4600 /* AlipaySDKWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipaySDKWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		179F288B21835FCB00AE4600 /* AlipaySDKWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipaySDKWrapperTests.swift; sourceTree = "<group>"; };
 		179F288D21835FCB00AE4600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179F289C2183600C00AE4600 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		179F28A02183604100AE4600 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		179F28A22183604100AE4600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		179F28A42183604100AE4600 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		179F28A62183604100AE4600 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		179F28A82183604100AE4600 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		179F28AA2183604100AE4600 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		179F28AC2183604100AE4600 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		179F28AE2183604100AE4600 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		179F28B02183604100AE4600 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		179F28B22183604100AE4600 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		179F28B42183604100AE4600 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		179F28B62183620100AE4600 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		179F28FA218368CB00AE4600 /* AlipaySDKWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipaySDKWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179F28A12183604100AE4600 /* CFNetwork.framework in Frameworks */,
+				179F28A32183604100AE4600 /* Foundation.framework in Frameworks */,
+				179F28A52183604100AE4600 /* UIKit.framework in Frameworks */,
+				179F28A72183604100AE4600 /* SystemConfiguration.framework in Frameworks */,
+				179F28A92183604100AE4600 /* QuartzCore.framework in Frameworks */,
+				179F28B72183620100AE4600 /* AlipaySDK.framework in Frameworks */,
+				179F28AB2183604100AE4600 /* CoreGraphics.framework in Frameworks */,
+				179F28AD2183604100AE4600 /* CoreMotion.framework in Frameworks */,
+				179F28AF2183604100AE4600 /* CoreTelephony.framework in Frameworks */,
+				179F28B12183604100AE4600 /* CoreText.framework in Frameworks */,
+				179F28B32183604100AE4600 /* libc++.tbd in Frameworks */,
+				179F28B52183604100AE4600 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +96,7 @@
 				179F287F21835FCB00AE4600 /* AlipaySDKWrapper */,
 				179F288A21835FCB00AE4600 /* AlipaySDKWrapperTests */,
 				179F287E21835FCB00AE4600 /* Products */,
+				179F289F2183604100AE4600 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +112,11 @@
 		179F287F21835FCB00AE4600 /* AlipaySDKWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				179F28B62183620100AE4600 /* AlipaySDK.framework */,
 				179F288021835FCB00AE4600 /* AlipaySDKWrapper.h */,
+				179F289C2183600C00AE4600 /* AlipaySDK.bundle */,
 				179F288121835FCB00AE4600 /* Info.plist */,
+				179F28FA218368CB00AE4600 /* AlipaySDKWrapper.swift */,
 			);
 			path = AlipaySDKWrapper;
 			sourceTree = "<group>";
@@ -84,6 +128,24 @@
 				179F288D21835FCB00AE4600 /* Info.plist */,
 			);
 			path = AlipaySDKWrapperTests;
+			sourceTree = "<group>";
+		};
+		179F289F2183604100AE4600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179F28A02183604100AE4600 /* CFNetwork.framework */,
+				179F28A22183604100AE4600 /* Foundation.framework */,
+				179F28A42183604100AE4600 /* UIKit.framework */,
+				179F28A62183604100AE4600 /* SystemConfiguration.framework */,
+				179F28A82183604100AE4600 /* QuartzCore.framework */,
+				179F28AA2183604100AE4600 /* CoreGraphics.framework */,
+				179F28AC2183604100AE4600 /* CoreMotion.framework */,
+				179F28AE2183604100AE4600 /* CoreTelephony.framework */,
+				179F28B02183604100AE4600 /* CoreText.framework */,
+				179F28B22183604100AE4600 /* libc++.tbd */,
+				179F28B42183604100AE4600 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +210,7 @@
 				TargetAttributes = {
 					179F287C21835FCB00AE4600 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					179F288521835FCB00AE4600 = {
 						CreatedOnToolsVersion = 10.0;
@@ -177,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179F289E2183600D00AE4600 /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179F28FB218368CB00AE4600 /* AlipaySDKWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,12 +406,17 @@
 		179F289221835FCB00AE4600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySDKWrapper",
+				);
 				INFOPLIST_FILE = AlipaySDKWrapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,6 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.disney.AlipaySDKWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,12 +436,17 @@
 		179F289321835FCB00AE4600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySDKWrapper",
+				);
 				INFOPLIST_FILE = AlipaySDKWrapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,6 +465,7 @@
 		179F289521835FCB00AE4600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlipaySDKWrapperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +483,7 @@
 		179F289621835FCB00AE4600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlipaySDKWrapperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
